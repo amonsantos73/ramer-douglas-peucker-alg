@@ -1,0 +1,6 @@
+.map-container {
+    flex: 1; /* Garante que o mapa ocupe o espaço disponível */
+    position: relative;
+    height: 600px;
+    width: 600px;
+}

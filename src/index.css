@@ -1,0 +1,6 @@
+@import './css/skeleton.css';
+@import './css/normalize.css';
+@import "leaflet/dist/leaflet.css";
+* {
+    box-sizing: border-box;
+}

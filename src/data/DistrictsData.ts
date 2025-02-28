@@ -1,0 +1,197 @@
+import {AAL} from "./districts/AAL.ts"
+import {ARI} from "./districts/ARI.ts"
+import {BRL} from "./districts/BRL.ts"
+import {CAC} from "./districts/CAC.ts"
+import {CDU} from "./districts/CDU.ts"
+import {CMB} from "./districts/CMB.ts"
+import {CTI} from "./districts/CTI.ts"
+import {FRE} from "./districts/FRE.ts"
+import {IGU} from "./districts/IGU.ts"
+import {JAB} from "./districts/JAB.ts"
+import {JBO} from "./districts/JBO.ts"
+import {JDS} from "./districts/JDS.ts"
+import {LIB} from "./districts/LIB.ts"
+import {MOE} from "./districts/MOE.ts"
+import {PEN} from "./districts/PEN.ts"
+import {PQC} from "./districts/PQC.ts"
+import {PRS} from "./districts/PRS.ts"
+import {SAC} from "./districts/SAC.ts"
+import {SCE} from "./districts/SCE.ts"
+import {SMI} from "./districts/SMI.ts"
+import {STN} from "./districts/STN.ts"
+import {VAN} from "./districts/VAN.ts"
+import {VJA} from "./districts/VJA.ts"
+import {VMR} from "./districts/VMR.ts"
+import {ANH} from "./districts/ANH.ts"
+import {BEL} from "./districts/BEL.ts"
+import {BRS} from "./districts/BRS.ts"
+import {CAD} from "./districts/CAD.ts"
+import {CGR} from "./districts/CGR.ts"
+import {CNG} from "./districts/CNG.ts"
+import {CUR} from "./districts/CUR.ts"
+import {GRA} from "./districts/GRA.ts"
+import {IPA} from "./districts/IPA.ts"
+import {JAC} from "./districts/JAC.ts"
+import {JDA} from "./districts/JDA.ts"
+import {JRE} from "./districts/JRE.ts"
+import {LIM} from "./districts/LIM.ts"
+import {MOO} from "./districts/MOO.ts"
+import {PIN} from "./districts/PIN.ts"
+import {PRA} from "./districts/PRA.ts"
+import {REP} from "./districts/REP.ts"
+import {SAM} from "./districts/SAM.ts"
+import {SDO} from "./districts/SDO.ts"
+import {SMT} from "./districts/SMT.ts"
+import {TAT} from "./districts/TAT.ts"
+import {VCR} from "./districts/VCR.ts"
+import {VLE} from "./districts/VLE.ts"
+import {VMT} from "./districts/VMT.ts"
+import {API} from "./districts/API.ts"
+import {BFU} from "./districts/BFU.ts"
+import {BUT} from "./districts/BUT.ts"
+import {CAR} from "./districts/CAR.ts"
+import {CLD} from "./districts/CLD.ts"
+import {CON} from "./districts/CON.ts"
+import {CVE} from "./districts/CVE.ts"
+import {GUA} from "./districts/GUA.ts"
+import {IPI} from "./districts/IPI.ts"
+import {JAG} from "./districts/JAG.ts"
+import {JDH} from "./districts/JDH.ts"
+import {LAJ} from "./districts/LAJ.ts"
+import {MAN} from "./districts/MAN.ts"
+import {MOR} from "./districts/MOR.ts"
+import {PIR} from "./districts/PIR.ts"
+import {PRD} from "./districts/PRD.ts"
+import {RPE} from "./districts/RPE.ts"
+import {SAP} from "./districts/SAP.ts"
+import {SEE} from "./districts/SEE.ts"
+import {SOC} from "./districts/SOC.ts"
+import {TRE} from "./districts/TRE.ts"
+import {VFO} from "./districts/VFO.ts"
+import {VMD} from "./districts/VMD.ts"
+import {VPR} from "./districts/VPR.ts"
+import {ARA} from "./districts/ARA.ts"
+import {BRE} from "./districts/BRE.ts"
+import {BVI} from "./districts/BVI.ts"
+import {CBE} from "./districts/CBE.ts"
+import {CLM} from "./districts/CLM.ts"
+import {CRE} from "./districts/CRE.ts"
+import {ERM} from "./districts/ERM.ts"
+import {IBI} from "./districts/IBI.ts"
+import {ITQ} from "./districts/ITQ.ts"
+import {JAR} from "./districts/JAR.ts"
+import {JDP} from "./districts/JDP.ts"
+import {LAP} from "./districts/LAP.ts"
+import {MAR} from "./districts/MAR.ts"
+import {PDR} from "./districts/PDR.ts"
+import {PLH} from "./districts/PLH.ts"
+import {PRI} from "./districts/PRI.ts"
+import {RTA} from "./districts/RTA.ts"
+import {SAU} from "./districts/SAU.ts"
+import {SLU} from "./districts/SLU.ts"
+import {SRA} from "./districts/SRA.ts"
+import {TUC} from "./districts/TUC.ts"
+import {VGL} from "./districts/VGL.ts"
+import {VMN} from "./districts/VMN.ts"
+import {VSO} from "./districts/VSO.ts"
+import {IDistrict} from "../models/DistrictInterface.ts";
+
+
+export const DistrictsData: { key: string, districtInfos: IDistrict }[] = [
+    {key: AAL.districtAbv, districtInfos: AAL},
+    {key: ARI.districtAbv, districtInfos: ARI},
+    {key: BRL.districtAbv, districtInfos: BRL},
+    {key: CAC.districtAbv, districtInfos: CAC},
+    {key: CDU.districtAbv, districtInfos: CDU},
+    {key: CMB.districtAbv, districtInfos: CMB},
+    {key: CTI.districtAbv, districtInfos: CTI},
+    {key: FRE.districtAbv, districtInfos: FRE},
+    {key: IGU.districtAbv, districtInfos: IGU},
+    {key: JAB.districtAbv, districtInfos: JAB},
+    {key: JBO.districtAbv, districtInfos: JBO},
+    {key: JDS.districtAbv, districtInfos: JDS},
+    {key: LIB.districtAbv, districtInfos: LIB},
+    {key: MOE.districtAbv, districtInfos: MOE},
+    {key: PEN.districtAbv, districtInfos: PEN},
+    {key: PQC.districtAbv, districtInfos: PQC},
+    {key: PRS.districtAbv, districtInfos: PRS},
+    {key: SAC.districtAbv, districtInfos: SAC},
+    {key: SCE.districtAbv, districtInfos: SCE},
+    {key: SMI.districtAbv, districtInfos: SMI},
+    {key: STN.districtAbv, districtInfos: STN},
+    {key: VAN.districtAbv, districtInfos: VAN},
+    {key: VJA.districtAbv, districtInfos: VJA},
+    {key: VMR.districtAbv, districtInfos: VMR},
+    {key: ANH.districtAbv, districtInfos: ANH},
+    {key: BEL.districtAbv, districtInfos: BEL},
+    {key: BRS.districtAbv, districtInfos: BRS},
+    {key: CAD.districtAbv, districtInfos: CAD},
+    {key: CGR.districtAbv, districtInfos: CGR},
+    {key: CNG.districtAbv, districtInfos: CNG},
+    {key: CUR.districtAbv, districtInfos: CUR},
+    {key: GRA.districtAbv, districtInfos: GRA},
+    {key: IPA.districtAbv, districtInfos: IPA},
+    {key: JAC.districtAbv, districtInfos: JAC},
+    {key: JDA.districtAbv, districtInfos: JDA},
+    {key: JRE.districtAbv, districtInfos: JRE},
+    {key: LIM.districtAbv, districtInfos: LIM},
+    {key: MOO.districtAbv, districtInfos: MOO},
+    {key: PIN.districtAbv, districtInfos: PIN},
+    {key: PRA.districtAbv, districtInfos: PRA},
+    {key: REP.districtAbv, districtInfos: REP},
+    {key: SAM.districtAbv, districtInfos: SAM},
+    {key: SDO.districtAbv, districtInfos: SDO},
+    {key: SMT.districtAbv, districtInfos: SMT},
+    {key: TAT.districtAbv, districtInfos: TAT},
+    {key: VCR.districtAbv, districtInfos: VCR},
+    {key: VLE.districtAbv, districtInfos: VLE},
+    {key: VMT.districtAbv, districtInfos: VMT},
+    {key: API.districtAbv, districtInfos: API},
+    {key: BFU.districtAbv, districtInfos: BFU},
+    {key: BUT.districtAbv, districtInfos: BUT},
+    {key: CAR.districtAbv, districtInfos: CAR},
+    {key: CLD.districtAbv, districtInfos: CLD},
+    {key: CON.districtAbv, districtInfos: CON},
+    {key: CVE.districtAbv, districtInfos: CVE},
+    {key: GUA.districtAbv, districtInfos: GUA},
+    {key: IPI.districtAbv, districtInfos: IPI},
+    {key: JAG.districtAbv, districtInfos: JAG},
+    {key: JDH.districtAbv, districtInfos: JDH},
+    {key: LAJ.districtAbv, districtInfos: LAJ},
+    {key: MAN.districtAbv, districtInfos: MAN},
+    {key: MOR.districtAbv, districtInfos: MOR},
+    {key: PIR.districtAbv, districtInfos: PIR},
+    {key: PRD.districtAbv, districtInfos: PRD},
+    {key: RPE.districtAbv, districtInfos: RPE},
+    {key: SAP.districtAbv, districtInfos: SAP},
+    {key: SEE.districtAbv, districtInfos: SEE},
+    {key: SOC.districtAbv, districtInfos: SOC},
+    {key: TRE.districtAbv, districtInfos: TRE},
+    {key: VFO.districtAbv, districtInfos: VFO},
+    {key: VMD.districtAbv, districtInfos: VMD},
+    {key: VPR.districtAbv, districtInfos: VPR},
+    {key: ARA.districtAbv, districtInfos: ARA},
+    {key: BRE.districtAbv, districtInfos: BRE},
+    {key: BVI.districtAbv, districtInfos: BVI},
+    {key: CBE.districtAbv, districtInfos: CBE},
+    {key: CLM.districtAbv, districtInfos: CLM},
+    {key: CRE.districtAbv, districtInfos: CRE},
+    {key: ERM.districtAbv, districtInfos: ERM},
+    {key: IBI.districtAbv, districtInfos: IBI},
+    {key: ITQ.districtAbv, districtInfos: ITQ},
+    {key: JAR.districtAbv, districtInfos: JAR},
+    {key: JDP.districtAbv, districtInfos: JDP},
+    {key: LAP.districtAbv, districtInfos: LAP},
+    {key: MAR.districtAbv, districtInfos: MAR},
+    {key: PDR.districtAbv, districtInfos: PDR},
+    {key: PLH.districtAbv, districtInfos: PLH},
+    {key: PRI.districtAbv, districtInfos: PRI},
+    {key: RTA.districtAbv, districtInfos: RTA},
+    {key: SAU.districtAbv, districtInfos: SAU},
+    {key: SLU.districtAbv, districtInfos: SLU},
+    {key: SRA.districtAbv, districtInfos: SRA},
+    {key: TUC.districtAbv, districtInfos: TUC},
+    {key: VGL.districtAbv, districtInfos: VGL},
+    {key: VMN.districtAbv, districtInfos: VMN},
+    {key: VSO.districtAbv, districtInfos: VSO},
+]
