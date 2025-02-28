@@ -1,6 +1,6 @@
 # README - Ramer-Douglas-Peucker Algorithm
 
-[![pt](https://img.shields.io/badge/lang-pt_br-green.svg)](https://github.com/amonsantos73/ramer-douglas-peucker-alg.git/blob/main/README.pt-br.md)
+[![pt](https://img.shields.io/badge/lang-pt_br-green.svg)](https://github.com/amonsantos73/ramer-douglas-peucker-alg/blob/main/README.pt-br.md)
 
 ## Description
 
