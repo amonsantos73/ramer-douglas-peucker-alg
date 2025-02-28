@@ -1,11 +1,10 @@
 # README - Algoritmo Ramer-Douglas-Peucker
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/amonsantos73/ramer-douglas-peucker-alg.git/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/amonsantos73/ramer-douglas-peucker-alg/blob/main/README.md)
 
 ## Descrição
 
-Este projeto implementa o **algoritmo Ramer-Douglas-Peucker** para simplificar polígonos que representam os bairros da *
-*cidade de São Paulo, Brasil**. Ele foi desenvolvido utilizando **React** e **Leaflet** para visualização interativa dos
+Este projeto implementa o **algoritmo Ramer-Douglas-Peucker** para simplificar polígonos que representam os bairros da **cidade de São Paulo, Brasil**. Ele foi desenvolvido utilizando **React** e **Leaflet** para visualização interativa dos
 dados geográficos.
 
 ## Tecnologias Utilizadas
