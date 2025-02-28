@@ -43,3 +43,4 @@ Feel free to open an issue or submit a pull request if you want to contribute to
 ## References
 
 - [Medium - The Ramer-Douglas-Peucker Algorithm](https://medium.com/@indemfeld/the-ramer-douglas-peucker-algorithm-d542807093e7)
+- [Kaggle - Bairros de São Paulo](https://www.kaggle.com/datasets/markfinn1/bairros-de-so-paulo?resource=download)
